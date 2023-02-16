@@ -1,0 +1,4 @@
+@import url("./paleta.css");
+body{
+    background-color: var(--blue);
+}
