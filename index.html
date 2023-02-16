@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Dia 2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    m
+    <h1>HTML Día 2</h1>
+    <table>
+      <tr>
+        <th colspan="3">Alumnos</th>
+        <th>Correos</th>
+      </tr>
+      <tr>
+        <td rowspan="2">alumnos x</td>
+        <td>alumnos x</td>
+        <td>alumnos x</td>
+        <td>alumnos x</td>
+      </tr>
+      <tr>
+        <td>alumnos x</td>
+        <td>alumnos x</td>
+        <td>alumnos x</td>
+      </tr>
+    </table>
+    <br />
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        id="nombre"
+        value="Pepe"
+      />
+      <br />
+      <br />
+      <label for="apellido">Apellido:</label>
+      <input
+        type="text"
+        name="apellido"
+        id="apellido"
+        placeholder="Escribe tu apellido"
+      />
+    </form>
+
+    <form>
+        <input type="radio" id="html" name="puntuacion" value="1" />  
+      <label for="html">Mal</label><br />
+        <input type="radio" id="css" name="puntuacion" value="2" />  
+      <label for="css">Normal</label><br />
+        <input type="radio" id="javascript" name="puntuacion" value="3" />  
+      <label for="javascript">Bien</label>
+      <br />
+      <input type="submit" value="Send mail" />
+      <button>Enviar</button>
+    </form>
+    <br />  <br />  <br />
+    <form>
+      <label for="nombre">Nombre:</label>
+      <br />
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        id="nombre"
+        value="Pepe"
+      />
+      <br />
+      <select name="bootcamp" id="">
+        <option value="fullstack">Full Stack</option>
+        <option value="uxui">UX/UI</option>
+        <option value="datascience">Data Science</option>
+        <option value="ciberseguridad" selected>Ciberseguridad</option>
+      </select>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
